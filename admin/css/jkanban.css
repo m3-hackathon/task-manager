@@ -1,0 +1,341 @@
+#tmpBoard {
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.kanban-container {
+  position: relative;
+  box-sizing: border-box;
+  width: auto !important;
+}
+
+.kanban-container * {
+  box-sizing: border-box;
+}
+
+.kanban-container:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.kanban-board {
+  position: relative;
+  float: left;
+  background: #e2e4e6;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+    min-width: 220px !important;
+}
+
+.kanban-board.disabled-board {
+  opacity: 0.3;
+}
+
+.kanban-board.is-moving.gu-mirror {
+  transform: rotate(3deg);
+}
+
+.kanban-board.is-moving.gu-mirror .kanban-drag {
+  overflow: hidden;
+  padding-right: 50px;
+}
+
+.kanban-board header {
+  font-size: 16px;
+  padding: 15px;
+}
+
+.kanban-board header .kanban-title-board {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  display: inline;
+    text-transform: capitalize;
+}
+
+.kanban-board header .kanban-title-button {
+  float: right;
+}
+
+.kanban-board .kanban-drag {
+  min-height: 200px;
+  padding: 20px;
+}
+
+.kanban-board:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.kanban-item {
+  background: #fff;
+  margin-bottom: 20px;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  animation: append-animate 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 5px;
+}
+
+.kanban-item .t_title{
+    padding: 7px 15px 10px 15px;
+}
+
+.kanban-item .t_title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.kanban-item .drag_handler {
+    width: 100%;
+    height: 20px;
+    float: initial;
+    top: auto;
+    margin-right: inherit;
+    border-radius: 5px 5px 0 0;
+}
+
+._done .kanban-board-header{
+    background: #4bc356;
+    color: #ffffff;
+}
+
+._todo .kanban-board-header {
+    background: #507bcc;
+    color: #ffffff;
+}
+
+._in_progress .kanban-board-header {
+    background: #f8b444;
+    color: #ffffff;
+}
+
+._review .kanban-board-header {
+    background: #9999ff;
+    color: #ffffff;
+}
+
+._todo .kanban-item .drag_handler{
+    background: #507bcc;
+}
+
+._in_progress .kanban-item .drag_handler{
+    background: #f8b444;
+}
+
+._review .kanban-item .drag_handler{
+    background: #9999ff;
+}
+
+._done .kanban-item .drag_handler{
+    background: #4bc356;
+}
+
+.kanban-container .add_new_button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.kanban-item.is-moving.gu-mirror .drag_handler{
+    background: indianred !important;
+}
+
+.kanban-item .t_top {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.kanban-item .t_top .t_date {
+    font-size: 13px;
+    font-weight: 600;
+    color: #000000;
+    padding-top: 1.5px;
+}
+
+.kanban-item .t_bottom {
+    border-top: 1px solid #b0c4de4a;
+    margin: 15px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kanban-item .t_bottom .t_project {
+    font-size: 12px;
+}
+
+.kanban-item .t_bottom .t_project:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.kanban-item .t_priority {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    background: #ffffff;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.kanban-item .t_priority img {
+    height: 16px;
+    object-fit: cover;
+}
+
+.kanban-item .t_top .t_t_left, .kanban-item .t_top .t_t_right {
+    display: flex;
+}
+
+.kanban-item .t_top .t_t_right .t_progress{
+
+}
+
+@keyframes append-animate {
+	from {
+		transform: translateY(-20px);
+	}
+	to {
+		transform: translateY(0px);
+	}
+}
+
+.kanban-item:hover {
+  cursor: move;
+}
+
+.kanban-item:last-child {
+  margin: 0;
+}
+
+.kanban-item.is-moving.gu-mirror {
+  transform: rotate(3deg);
+  height: auto !important;
+}
+
+/* Dragula CSS  */
+.gu-mirror {
+  position: fixed !important;
+  margin: 0 !important;
+  z-index: 9999 !important;
+}
+
+.gu-hide {
+  display: none !important;
+}
+
+.gu-unselectable {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.gu-transit {
+  opacity: 0.2 !important;
+  transform: rotate(0deg) !important;
+}
+
+.drag_handler {
+    background: #fff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    float: left;
+    top: -3px;
+    margin-right: 4px;
+}
+
+.drag_handler:hover {
+  cursor: move;
+}
+
+.drag_handler_icon {
+    position: relative;
+    display: block;
+    background: #000;
+    width: 24px;
+    height: 2px;
+    top: 12px;
+    transition: .5s ease-in-out;
+}
+
+.drag_handler_icon:before,
+.drag_handler_icon:after {
+    background: #000;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: .5s ease-in-out;
+}
+
+ .drag_handler_icon:before {
+    top: 6px;
+}
+
+.drag_handler_icon:after {
+    bottom: 6px;
+}
+
+/** Progress bar **/
+.kanban-item .t_top .t_t_right {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+
+[role="progress-bar-parcent-cover"] {
+    --percentage: var(--value);
+    --primary: #369;
+    --secondary: #adf;
+    --size: 30px;
+    animation: progress 2s 0.5s forwards;
+    width: var(--size);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+[role="progress-bar-parcent-cover"]::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: conic-gradient(
+            var(--primary) calc(var(--percentage) * 1%),
+            var(--secondary) 0
+    );
+    mask: radial-gradient(white 55%, transparent 0);
+    mask-mode: alpha;
+    -webkit-mask: radial-gradient(#0000 55%, #000 0);
+    -webkit-mask-mode: alpha;
+}
+
+[role="progress-bar-parcent-cover"]::after {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) "%";
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 3.5);
+    color: var(--primary);
+}
+/** Progress bar **/

@@ -1,0 +1,977 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Task Manager\n"
+"POT-Creation-Date: 2017-05-07 19:47+0600\n"
+"PO-Revision-Date: 2022-10-11 05:51+0000\n"
+"Language-Team: Spanish (Spain)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: task-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: Admin User\n"
+"Language: es_ES\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.2; wp-6.0.2"
+
+#: admin/pages/manage-users.php:116 admin/pages/user-groups.php:100
+#: admin/task-manager-admin.php:177
+msgid "User Groups"
+msgstr "Grupos de Usuarios"
+
+#: admin/pages/manage-users.php:128
+msgid "Add A User To Task Manager"
+msgstr "Agregar un usuario al Administrador de tareas"
+
+#: admin/pages/manage-users.php:130 admin/pages/manage-users.php:183
+msgid "Select User"
+msgstr "Seleccionar usuario"
+
+#: admin/pages/manage-users.php:136
+msgid "Select a user form system users."
+msgstr "Seleccione un formulario de usuario los usuarios del sistema."
+
+#: admin/pages/manage-users.php:138 admin/pages/manage-users.php:189
+msgid "Assign User to Group"
+msgstr "Asignar Usuario a Grupo"
+
+#: admin/pages/manage-users.php:144 admin/pages/user-groups.php:132
+msgid "The Task access type is how it appears on the user list."
+msgstr ""
+"La Tarea tipo de acceso es la forma en que aparece en la lista de usuarios."
+
+#: admin/pages/manage-users.php:147
+msgid "Add User"
+msgstr "Agregar Usuario"
+
+#: admin/pages/manage-users.php:176 admin/pages/user-groups.php:164
+msgid "Edit User Group"
+msgstr "Edición De Grupo De Usuario"
+
+#: admin/pages/manage-users.php:192 admin/pages/project-status.php:142
+#: admin/pages/user-groups.php:185
+msgid "Modify User Group"
+msgstr "Modificar Grupo De Usuarios"
+
+#: admin/pages/manage-users.php:220
+msgid "You are about to delete the User. Are you sure ?"
+msgstr "Usted está a punto de eliminar al Usuario. Estás seguro ?"
+
+#: admin/pages/manage-users.php:222 admin/pages/project-category.php:222
+#: admin/pages/project-status.php:171 admin/pages/projects.php:223
+#: admin/pages/task-labels.php:167 admin/pages/task-status.php:193
+#: admin/pages/task-types.php:221 admin/pages/tasks.php:231
+#: admin/pages/user-access-type.php:172 admin/pages/user-groups.php:216
+msgid "Yes"
+msgstr "Sí"
+
+#: admin/pages/manage-users.php:223 admin/pages/project-category.php:223
+#: admin/pages/project-status.php:172 admin/pages/projects.php:224
+#: admin/pages/task-labels.php:168 admin/pages/task-status.php:194
+#: admin/pages/task-types.php:222 admin/pages/tasks.php:232
+#: admin/pages/user-access-type.php:173 admin/pages/user-groups.php:217
+msgid "No"
+msgstr "No"
+
+#: admin/pages/project-category.php:113
+msgid "Project Categories"
+msgstr "Proyecto De Categorías"
+
+#: admin/pages/project-category.php:125 admin/pages/project-category.php:142
+msgid "Add New Category"
+msgstr "Agregar Una Nueva Categoría"
+
+#: admin/pages/project-category.php:129 admin/pages/project-status.php:91
+#: admin/pages/project-status.php:135 admin/pages/task-labels.php:87
+#: admin/pages/task-priority.php:118 admin/pages/task-status.php:97
+#: admin/pages/task-status.php:150 admin/pages/task-types.php:129
+#: admin/pages/user-access-type.php:139 admin/pages/user-groups.php:115
+#: admin/partials/category-list-table-class.php:118
+#: admin/partials/manage-user-table-class.php:124
+#: admin/partials/project-list-table-class.php:197
+#: admin/partials/project-status-table-class.php:118
+#: admin/partials/projects-task-table-class.php:194
+#: admin/partials/task-label-table-class.php:117
+#: admin/partials/task-list-table-class.php:215
+#: admin/partials/task-priority-table-class.php:119
+#: admin/partials/task-status-list-table-class.php:125
+#: admin/partials/task-type-table-class.php:119
+#: admin/partials/ticket-list-table-class.php:153
+#: admin/partials/ticket-type-table-class.php:117
+#: admin/partials/user-access-type-table-class.php:113
+#: admin/partials/user-group-table-class.php:132
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/pages/project-category.php:132 admin/pages/task-labels.php:90
+#: admin/pages/task-priority.php:121 admin/pages/task-types.php:131
+msgid "The name is how it appears on your project."
+msgstr "El nombre es la forma en que aparece en su proyecto."
+
+#: admin/pages/project-category.php:135 admin/pages/task-types.php:134
+#: admin/partials/category-list-table-class.php:119
+#: admin/partials/task-type-table-class.php:120
+msgid "Slug"
+msgstr "Slug"
+
+#: admin/pages/project-category.php:137 admin/pages/task-types.php:136
+msgid ""
+"The “slug” is the URL-friendly version of the name. It is usually all "
+"lowercase and\n"
+"                                contains only letters, numbers, and hyphens."
+msgstr ""
+"El \"slug\" es la URL de la versión adaptada del nombre. Es generalmente "
+"todo en minúsculas y sólo contiene letras, números y guiones."
+
+#: admin/pages/project-category.php:166 admin/pages/project-status.php:122
+#: admin/pages/task-labels.php:118 admin/pages/task-priority.php:166
+#: admin/pages/task-status.php:137 admin/pages/task-types.php:165
+msgid "Note:"
+msgstr "Nota:"
+
+#: admin/pages/project-category.php:166
+msgid "Deleting a category does not delete the projects in that category."
+msgstr ""
+"La eliminación de una categoría no eliminar los proyectos en esa categoría."
+
+#: admin/pages/project-category.php:175
+msgid "Edit Project Category"
+msgstr "Editar Categoría De Proyecto"
+
+#: admin/pages/project-category.php:179 admin/pages/project-category.php:181
+msgid "Category Name"
+msgstr "Nombre De La Categoría"
+
+#: admin/pages/project-category.php:186 admin/pages/project-category.php:188
+msgid "Category Slug"
+msgstr "Categoría Slug"
+
+#: admin/pages/project-category.php:220
+msgid "You are about to delete the Category. Are you sure ?"
+msgstr "Usted está a punto de eliminar la Categoría. Estás seguro ?"
+
+#: admin/pages/project-details.php:114 admin/task-manager-admin.php:142
+msgid "Edit Project"
+msgstr "Editar El Proyecto"
+
+#: admin/pages/project-details.php:124 admin/pages/task-details.php:170
+msgid "Details"
+msgstr "Detalles"
+
+#: admin/pages/project-details.php:136
+#: admin/partials/project-list-table-class.php:202
+msgid "Live Url"
+msgstr "Vivir Url"
+
+#: admin/pages/project-details.php:142
+msgid "Test Url"
+msgstr "Url De Prueba"
+
+#: admin/pages/project-details.php:148 admin/pages/project-edit.php:168
+#: admin/pages/project-new.php:131
+msgid "Design Date"
+msgstr "Diseño De Fecha"
+
+#: admin/pages/project-details.php:159 admin/pages/project-edit.php:179
+#: admin/pages/project-new.php:142
+msgid "Development Date"
+msgstr "Desarrollo Fecha"
+
+#: admin/pages/project-details.php:166
+msgid "Test Date"
+msgstr "Fecha De La Prueba"
+
+#: admin/pages/project-details.php:172
+msgid "Do Live Date"
+msgstr "Vive La Fecha"
+
+#: admin/pages/project-details.php:182
+msgid "Tasks of This Project"
+msgstr "Las tareas de Este Proyecto"
+
+#: admin/pages/project-details.php:200 admin/pages/project-edit.php:122
+#: admin/pages/project-new.php:92 admin/task-manager-admin.php:137
+msgid "Project Status"
+msgstr "Estado Del Proyecto"
+
+#: admin/pages/project-details.php:209
+msgid "Project Owner"
+msgstr "El Propietario Del Proyecto"
+
+#: admin/pages/project-details.php:218
+msgid "Contacts Involved With This Project"
+msgstr "Contactos Involucrados Con Este Proyecto"
+
+#: admin/pages/project-edit.php:84
+msgid "Edit Existing Project"
+msgstr "Edición De Un Proyecto Existente"
+
+#: admin/pages/project-edit.php:89 admin/pages/project-new.php:62
+#: admin/partials/task-list-table-class.php:216
+msgid "Project Name"
+msgstr "Nombre Del Proyecto"
+
+#: admin/pages/project-edit.php:95 admin/pages/project-new.php:67
+#: admin/pages/task-new.php:84
+msgid "The name of the project - where you can define your project."
+msgstr "El nombre del proyecto - en el que puede definir su proyecto."
+
+#: admin/pages/project-edit.php:100 admin/pages/project-new.php:73
+msgid "Project Category"
+msgstr "Categoría De Proyecto"
+
+#: admin/pages/project-edit.php:114 admin/pages/project-new.php:84
+#: admin/pages/task-new.php:100 admin/pages/task-new.php:117
+msgid "The type of project you are creating."
+msgstr "El tipo de proyecto que se está creando."
+
+#: admin/pages/project-edit.php:136 admin/pages/project-new.php:103
+msgid "The project status - current status of project."
+msgstr "El proyecto de estado - estado actual del proyecto."
+
+#: admin/pages/project-edit.php:141 admin/pages/project-new.php:108
+msgid "Project Live Url"
+msgstr "Proyecto Vivir Url"
+
+#: admin/pages/project-edit.php:148 admin/pages/project-new.php:113
+msgid "Project live url - where you can check the live project."
+msgstr "Proyecto vivir la url de donde se puede revisar el proyecto de vida."
+
+#: admin/pages/project-edit.php:153 admin/pages/project-new.php:118
+msgid "Project Test Url"
+msgstr "Proyecto De Url De Prueba"
+
+#: admin/pages/project-edit.php:160 admin/pages/project-new.php:123
+msgid "The development env url - where you found dev preview."
+msgstr "El desarrollo de env url donde se encuentra dev preview."
+
+#: admin/pages/project-edit.php:174 admin/pages/project-new.php:137
+msgid "Design completion date for the project."
+msgstr "Diseño de la fecha de finalización del proyecto."
+
+#: admin/pages/project-edit.php:185 admin/pages/project-new.php:149
+msgid "Development Completion Date."
+msgstr "Desarrollo De La Fecha De Finalización."
+
+#: admin/pages/project-edit.php:190 admin/pages/project-new.php:154
+msgid "Project Testing Date"
+msgstr "Proyecto De Pruebas De Fecha"
+
+#: admin/pages/project-edit.php:196 admin/pages/project-new.php:160
+msgid "Testing phase completion date."
+msgstr "La fase de pruebas de fecha de finalización."
+
+#: admin/pages/project-edit.php:204 admin/pages/project-new.php:168
+#: admin/task-manager-admin.php:126
+msgid "Project Details"
+msgstr "Los Detalles Del Proyecto"
+
+#: admin/pages/project-edit.php:211 admin/pages/project-new.php:175
+msgid "Members/Groups"
+msgstr "Los Miembros De Los Grupos"
+
+#: admin/pages/project-edit.php:226 admin/pages/project-new.php:190
+#: admin/pages/task-edit.php:309 admin/pages/task-new.php:241
+msgid "Search for specific users.."
+msgstr "Búsqueda de usuarios específicos.."
+
+#: admin/pages/project-edit.php:240 admin/pages/task-edit.php:322
+#: admin/pages/task-new.php:255
+msgid "To assign specific user."
+msgstr "Para asignar un usuario determinado."
+
+#: admin/pages/project-edit.php:258 admin/pages/project-new.php:212
+msgid "Project Will Go Live"
+msgstr "El Proyecto Va A Ir A Vivir"
+
+#: admin/pages/project-edit.php:277 admin/pages/task-details.php:229
+#: admin/pages/task-edit.php:349
+msgid "Save"
+msgstr "Guardar"
+
+#: admin/pages/project-new.php:57
+msgid "Create A New Project"
+msgstr "Crear Un Nuevo Proyecto"
+
+#: admin/pages/project-new.php:202
+msgid "Total involved team members."
+msgstr "Total que participan los miembros del equipo."
+
+#: admin/pages/project-new.php:233 admin/pages/task-new.php:274
+msgid "Create"
+msgstr "Crear"
+
+#: admin/pages/project-status.php:75
+msgid "Project/Ticket Status"
+msgstr "Proyecto/Billete De Estado"
+
+#: admin/pages/project-status.php:87 admin/pages/project-status.php:98
+#: admin/pages/task-status.php:113
+msgid "Add New Status"
+msgstr "Añadir Un Nuevo Estatus"
+
+#: admin/pages/project-status.php:93
+msgid "The name is how it appears on your project/ticket."
+msgstr "El nombre es la forma en que aparece en el proyecto de entradas."
+
+#: admin/pages/project-status.php:122
+msgid ""
+"These status will be appear also on ticket, deleting a status can be effect "
+"on project/ticket."
+msgstr ""
+"Estos estatus será aparecen también en el billete, la eliminación de un "
+"estado puede ser efecto sobre el proyecto de entradas."
+
+#: admin/pages/project-status.php:131 admin/pages/task-status.php:146
+msgid "Edit Status"
+msgstr "Estado De Edición"
+
+#: admin/pages/project-status.php:137 admin/pages/task-status.php:152
+msgid "Status Name"
+msgstr "Nombre De Estado"
+
+#: admin/pages/project-status.php:169
+msgid "You are about to delete the status. Are you sure ?"
+msgstr "Usted está a punto de eliminar el estado. Estás seguro ?"
+
+#: admin/pages/projects.php:117
+msgid "Open Projects"
+msgstr "Los Proyectos Abiertos"
+
+#: admin/pages/projects.php:126 admin/pages/projects.php:147
+msgid "total projects"
+msgstr "total de proyectos"
+
+#: admin/pages/projects.php:138
+msgid "Closed Projects"
+msgstr "Cerró Los Proyectos"
+
+#: admin/pages/projects.php:159 admin/pages/tasks.php:121
+msgid "Total Tasks"
+msgstr "Total De Tareas"
+
+#: admin/pages/projects.php:164
+msgid "Go to tasks"
+msgstr "Vaya a tareas"
+
+#: admin/pages/projects.php:176
+msgid "People Involved"
+msgstr "Las Personas Involucradas"
+
+#: admin/pages/projects.php:181
+msgid "Go to Manage Users"
+msgstr "Vaya a Administrar a los Usuarios"
+
+#: admin/pages/projects.php:190 admin/task-manager-admin.php:125
+msgid "Projects"
+msgstr "Proyectos"
+
+#: admin/pages/projects.php:193 admin/pages/tasks.php:202
+#: admin/task-manager-admin.php:131 admin/task-manager-admin.php:155
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: admin/pages/projects.php:219
+msgid ""
+"You are about to delete the Project. All of the tasks associate with this "
+"project\n"
+"                will\n"
+"                be delete. Are you sure ?"
+msgstr ""
+"Usted está a punto de eliminar el Proyecto. Todas las tareas que se asocian "
+"con este proyecto se elimina. Estás seguro ?"
+
+#: admin/pages/task-details.php:160 admin/task-manager-admin.php:168
+msgid "Edit Task"
+msgstr "Tarea De Edición"
+
+#: admin/pages/task-details.php:182
+#: admin/partials/projects-task-table-class.php:196
+#: admin/partials/task-list-table-class.php:218
+msgid "Task Priority"
+msgstr "La Prioridad De La Tarea"
+
+#: admin/pages/task-details.php:197
+msgid "Time Estimation"
+msgstr "Estimación De Tiempo De"
+
+#: admin/pages/task-details.php:208 admin/pages/task-edit.php:271
+#: admin/pages/task-new.php:208
+msgid "Task Progress"
+msgstr "El Progreso De La Tarea"
+
+#: admin/pages/task-details.php:240
+msgid "Task Start From"
+msgstr "Comienzo De La Tarea De"
+
+#: admin/pages/task-details.php:252 admin/pages/task-edit.php:258
+#: admin/pages/task-new.php:195 admin/partials/task-list-table-class.php:220
+msgid "Due Date"
+msgstr "Fecha De Vencimiento"
+
+#: admin/pages/task-details.php:268
+msgid "Task Created"
+msgstr "Las Tareas Creadas"
+
+#: admin/pages/task-details.php:280
+msgid "Last Updated"
+msgstr "Última Actualización"
+
+#: admin/pages/task-details.php:293
+msgid "Task Comments"
+msgstr "Tarea Comentarios"
+
+#: admin/pages/task-details.php:316
+msgid "No Comment Added Yet"
+msgstr "Ningún Comentario Añadido Todavía"
+
+#: admin/pages/task-details.php:328 admin/pages/task-edit.php:194
+#: admin/pages/task-new.php:137 admin/pages/task-status.php:81
+#: admin/partials/projects-task-table-class.php:195
+#: admin/partials/task-list-table-class.php:217
+#: admin/task-manager-admin.php:161
+msgid "Task Status"
+msgstr "El Estado De La Tarea"
+
+#: admin/pages/task-details.php:339
+msgid "Assign Task As"
+msgstr "Asignar Tareas Como"
+
+#: admin/pages/task-details.php:343
+msgid "Select Status"
+msgstr "Seleccione Estado"
+
+#: admin/pages/task-details.php:351
+msgid "Change"
+msgstr "Cambio"
+
+#: admin/pages/task-details.php:359
+msgid "Add a comment"
+msgstr "Agregar un comentario"
+
+#: admin/pages/task-details.php:371
+msgid "Add"
+msgstr "Agregar"
+
+#: admin/pages/task-details.php:378
+msgid "Created By"
+msgstr "Creado Por"
+
+#: admin/pages/task-details.php:388
+msgid "Last Updated By"
+msgstr "Actualizada Por Última Vez Por"
+
+#: admin/pages/task-details.php:398
+msgid "Contacts Involved With This Task"
+msgstr "Contactos Involucrados Con Esta Tarea"
+
+#: admin/pages/task-edit.php:113
+msgid "Edit Existing Task"
+msgstr "Editar Tarea Existente"
+
+#: admin/pages/task-edit.php:118 admin/pages/task-new.php:72
+msgid "Project"
+msgstr "Proyecto"
+
+#: admin/pages/task-edit.php:132
+msgid "The name of the Task - where you can define your Task."
+msgstr "El nombre de la Tarea en la que puede definir su Tarea."
+
+#: admin/pages/task-edit.php:138 admin/pages/task-new.php:89
+msgid "Task Type"
+msgstr "Tipo De Tarea"
+
+#: admin/pages/task-edit.php:152 admin/pages/task-edit.php:172
+#: admin/pages/task-edit.php:228
+msgid "The type of Task you are creating."
+msgstr "El tipo de Tarea que se está creando."
+
+#: admin/pages/task-edit.php:158 admin/pages/task-new.php:106
+msgid "Label"
+msgstr "Etiqueta"
+
+#: admin/pages/task-edit.php:181 admin/pages/task-new.php:125
+msgid "Task Name"
+msgstr "Nombre De La Tarea"
+
+#: admin/pages/task-edit.php:188 admin/pages/task-new.php:132
+msgid "The name of the task - where you can define your task."
+msgstr "El nombre de la tarea en la que puede definir su tarea."
+
+#: admin/pages/task-edit.php:209
+msgid "The Task status - current status of task."
+msgstr "El estado de la Tarea: estado actual de la tarea."
+
+#: admin/pages/task-edit.php:214 admin/pages/task-new.php:154
+msgid "Priority"
+msgstr "Prioridad"
+
+#: admin/pages/task-edit.php:236 admin/pages/task-new.php:173
+msgid "Estimation Time"
+msgstr "Estimación De Tiempo"
+
+#: admin/pages/task-edit.php:242 admin/pages/task-new.php:179
+msgid "The estimation for the task."
+msgstr "La estimación para la tarea."
+
+#: admin/pages/task-edit.php:253 admin/pages/task-new.php:190
+msgid "The start date for the task."
+msgstr "La fecha de inicio de la tarea."
+
+#: admin/pages/task-edit.php:264 admin/pages/task-new.php:201
+msgid "The due date for the task."
+msgstr "La fecha de vencimiento para la tarea."
+
+#: admin/pages/task-edit.php:284 admin/pages/task-new.php:221
+#: admin/task-manager-admin.php:150
+msgid "Task Details"
+msgstr "Los Detalles De La Tarea"
+
+#: admin/pages/task-labels.php:71 admin/task-manager-admin.php:163
+msgid "Task Labels"
+msgstr "Tarea Etiquetas"
+
+#: admin/pages/task-labels.php:83 admin/pages/task-labels.php:94
+msgid "Add New Label"
+msgstr "Agregar Nueva Etiqueta"
+
+#: admin/pages/task-labels.php:118
+msgid "Deleting a label can be effect on task."
+msgstr "Eliminación de una etiqueta puede ser efecto de la tarea."
+
+#: admin/pages/task-labels.php:127
+msgid "Edit Task Label"
+msgstr "Tarea De Edición De La Etiqueta"
+
+#: admin/pages/task-labels.php:131 admin/pages/task-labels.php:133
+#: admin/pages/task-priority.php:181 admin/pages/task-types.php:178
+#: admin/pages/task-types.php:180
+msgid "Type Name"
+msgstr "Nombre Del Tipo De"
+
+#: admin/pages/task-labels.php:138
+msgid "Modify Task Label"
+msgstr "Modificar Tarea De La Etiqueta"
+
+#: admin/pages/task-labels.php:165
+msgid "You are about to delete the Task label. Are you sure ?"
+msgstr "Usted está a punto de eliminar la Tarea de la etiqueta. Estás seguro ?"
+
+#: admin/pages/task-new.php:67
+msgid "Create a New Task"
+msgstr "Crear una Nueva Tarea"
+
+#: admin/pages/task-new.php:128
+msgid "Your task name..."
+msgstr "Su nombre de tarea..."
+
+#: admin/pages/task-new.php:149
+msgid "The task status - current status of task."
+msgstr "El estado de la tarea: estado actual de la tarea."
+
+#: admin/pages/task-new.php:165
+msgid "Set the priority of the task."
+msgstr "Establecer la prioridad de la tarea."
+
+#: admin/pages/task-new.php:177
+msgid "Estimation time with any format..."
+msgstr "Estimación de tiempo con cualquier formato de..."
+
+#: admin/pages/task-new.php:184
+msgid "Start Date"
+msgstr "Fecha De Inicio"
+
+#: admin/pages/task-new.php:228
+msgid "Assign to"
+msgstr "Asignar a"
+
+#: admin/pages/task-priority.php:102 admin/task-manager-admin.php:162
+msgid "Task Priorities"
+msgstr "Las Prioridades De Tarea"
+
+#: admin/pages/task-priority.php:114 admin/pages/task-priority.php:141
+msgid "Add New Priority"
+msgstr "Agregar Nueva Prioridad"
+
+#: admin/pages/task-priority.php:125 admin/pages/task-priority.php:184
+msgid "Task Priority Icon"
+msgstr "La Prioridad De La Tarea Icono"
+
+#: admin/pages/task-priority.php:133 admin/pages/task-priority.php:190
+msgid "Icon Preview"
+msgstr "Icono De Vista Previa"
+
+#: admin/pages/task-priority.php:166
+msgid "Deleting a task priority can be effect on tasks."
+msgstr "Eliminación de una tarea de prioridad puede ser efecto en las tareas."
+
+#: admin/pages/task-priority.php:175
+msgid "Edit Task Priority"
+msgstr "Modificar La Prioridad De La Tarea"
+
+#: admin/pages/task-priority.php:179
+msgid "Priority Name"
+msgstr "Prioridad Nombre"
+
+#: admin/pages/task-priority.php:194
+msgid "Modify Icon Priority"
+msgstr "Modificar El Icono De Prioridad"
+
+#: admin/pages/task-status.php:93
+msgid "Add New Task Status"
+msgstr "Agregar Nuevo Estado De La Tarea"
+
+#: admin/pages/task-status.php:99
+msgid "The name is how it appears on your task."
+msgstr "El nombre es la forma en que aparece en su tarea."
+
+#: admin/pages/task-status.php:109
+msgid "The Project access type is how it appears on the task group."
+msgstr ""
+"El Proyecto tipo de acceso es la forma en que aparece en el grupo de trabajo."
+
+#: admin/pages/task-status.php:137
+msgid "Deleting a task status can be effect on tasks.."
+msgstr ""
+"La eliminación de un estado de la tarea puede ser efecto en las tareas.."
+
+#: admin/pages/task-status.php:155
+msgid "Status Group"
+msgstr "Grupo De Estado"
+
+#: admin/pages/task-status.php:163
+msgid "Modify Task Status"
+msgstr "Modificar El Estado De La Tarea"
+
+#: admin/pages/task-status.php:191
+msgid "You are about to delete the task status. Are you sure ?"
+msgstr "Usted está a punto de eliminar el estado de la tarea. Estás seguro ?"
+
+#: admin/pages/task-types.php:113 admin/task-manager-admin.php:160
+msgid "Task Types"
+msgstr "Tipos De Tareas"
+
+#: admin/pages/task-types.php:125
+msgid "Add Task Type"
+msgstr "Agregar El Tipo De Tarea De"
+
+#: admin/pages/task-types.php:141
+msgid "Add New Type"
+msgstr "Agregar Nuevo Tipo De"
+
+#: admin/pages/task-types.php:165
+msgid "Deleting a task type can effect on tasks."
+msgstr "Eliminación de una tarea de tipo de efecto en las tareas."
+
+#: admin/pages/task-types.php:174
+msgid "Edit Task Type"
+msgstr "Editar Tipo De Tarea"
+
+#: admin/pages/task-types.php:185 admin/pages/task-types.php:187
+msgid "Type Slug"
+msgstr "Tipo Slug"
+
+#: admin/pages/task-types.php:191
+msgid "Modify Task Type"
+msgstr "Modificar El Tipo De Tarea De"
+
+#: admin/pages/task-types.php:219
+msgid "You are about to delete the task type. Are you sure ?"
+msgstr "Usted está a punto de eliminar el tipo de tarea. Estás seguro ?"
+
+#: admin/pages/tasks.php:126 admin/pages/tasks.php:147
+#: admin/pages/tasks.php:168
+msgid "From"
+msgstr "De"
+
+#: admin/pages/tasks.php:130 admin/pages/tasks.php:151
+#: admin/pages/tasks.php:172
+msgid "projects"
+msgstr "proyectos"
+
+#: admin/pages/tasks.php:142
+msgid "Open Tasks"
+msgstr "Tareas Abiertas"
+
+#: admin/pages/tasks.php:163
+msgid "Completed Tasks"
+msgstr "Las Tareas Completadas"
+
+#: admin/pages/tasks.php:184
+msgid "Total Projects"
+msgstr "Total De Proyectos"
+
+#: admin/pages/tasks.php:189
+msgid "Go to projects"
+msgstr "Ir a los proyectos"
+
+#: admin/pages/tasks.php:199 admin/task-manager-admin.php:149
+msgid "Tasks"
+msgstr "Tareas"
+
+#: admin/pages/tasks.php:228
+msgid ""
+"You are about to delete the Task. Please check the task progress before "
+"delete.\n"
+"                Do you still want to delete the task ?"
+msgstr ""
+"Usted está a punto de eliminar la Tarea. Por favor, compruebe el progreso de "
+"la tarea antes de eliminar. ¿Todavía quieres eliminar la tarea ?"
+
+#: admin/pages/ticket-edit.php:154
+msgid "Submit"
+msgstr "Enviar"
+
+#: admin/pages/user-access-type.php:79 admin/task-manager-admin.php:178
+msgid "User Access Types"
+msgstr "Los Tipos De Acceso De Usuario"
+
+#: admin/pages/user-access-type.php:84
+msgid ""
+"You can modify title as your way but don't change the topics for as per\n"
+"        access. So you could no be track which user group as which access."
+msgstr ""
+"Usted puede modificar el título de tu camino, pero no cambiar los temas como "
+"por el acceso. Por lo que podría no ser la pista que grupo de usuarios como "
+"los que acceder."
+
+#: admin/pages/user-access-type.php:134
+msgid "Edit Access Type"
+msgstr "Editar Tipo De Acceso"
+
+#: admin/pages/user-access-type.php:142
+msgid "Modify Access Type"
+msgstr "Modificar Tipo De Acceso"
+
+#: admin/pages/user-access-type.php:170
+msgid "You are about to delete the Access type. Are you sure ?"
+msgstr "Usted está a punto de eliminar el tipo de Acceso. Estás seguro ?"
+
+#: admin/pages/user-groups.php:112 admin/pages/user-groups.php:135
+msgid "Add New User Group"
+msgstr "Agregar Nuevo Grupo De Usuarios"
+
+#: admin/pages/user-groups.php:117
+msgid "The access type is how it appears on the user list."
+msgstr "El tipo de acceso es la forma en que aparece en la lista de usuarios."
+
+#: admin/pages/user-groups.php:119
+#: admin/partials/user-group-table-class.php:133
+msgid "Project Access"
+msgstr "Proyecto De Acceso"
+
+#: admin/pages/user-groups.php:125
+msgid "The Project access type is how it appears on the user list."
+msgstr ""
+"El Proyecto tipo de acceso es la forma en que aparece en la lista de "
+"usuarios."
+
+#: admin/pages/user-groups.php:126
+#: admin/partials/user-group-table-class.php:134
+msgid "Task Access"
+msgstr "La Tarea De Acceso"
+
+#: admin/pages/user-groups.php:167
+msgid "Access Name"
+msgstr "Nombre De Acceso"
+
+#: admin/pages/user-groups.php:214
+msgid "You are about to delete the group. Are you sure ?"
+msgstr "Usted está a punto de eliminar el grupo. Estás seguro ?"
+
+#: admin/partials/category-list-table-class.php:120
+#: admin/partials/manage-user-table-class.php:126
+#: admin/partials/project-list-table-class.php:203
+#: admin/partials/project-status-table-class.php:119
+#: admin/partials/projects-task-table-class.php:199
+#: admin/partials/task-label-table-class.php:118
+#: admin/partials/task-list-table-class.php:222
+#: admin/partials/task-priority-table-class.php:121
+#: admin/partials/task-status-list-table-class.php:127
+#: admin/partials/task-type-table-class.php:121
+#: admin/partials/ticket-list-table-class.php:159
+#: admin/partials/ticket-type-table-class.php:118
+#: admin/partials/user-access-type-table-class.php:114
+msgid "Action"
+msgstr "Acción"
+
+#: admin/partials/manage-user-table-class.php:125
+msgid "User Group"
+msgstr "Grupo De Usuarios"
+
+#: admin/partials/project-list-table-class.php:198
+msgid "Category"
+msgstr "Categoría"
+
+#: admin/partials/project-list-table-class.php:199
+#: admin/partials/ticket-list-table-class.php:155
+msgid "Status"
+msgstr "Estado"
+
+#: admin/partials/project-list-table-class.php:200
+msgid "Go Live Date"
+msgstr "Ir A Vivir Fecha"
+
+#: admin/partials/project-list-table-class.php:201
+msgid "Created"
+msgstr "Creado"
+
+#: admin/partials/projects-task-table-class.php:197
+#: admin/partials/task-list-table-class.php:219
+msgid "Progress"
+msgstr "El progreso"
+
+#: admin/partials/projects-task-table-class.php:198
+msgid "Dui Date"
+msgstr "Dui Fecha"
+
+#: admin/partials/task-list-table-class.php:221
+msgid "Task Label"
+msgstr "La Tarea De La Etiqueta"
+
+#: admin/partials/task-priority-table-class.php:120
+msgid "Icon"
+msgstr "Icono"
+
+#: admin/partials/task-status-list-table-class.php:126
+msgid "Group Name"
+msgstr "Nombre Del Grupo"
+
+#: admin/partials/ticket-list-table-class.php:154
+msgid "Ticket For"
+msgstr "Billete Para"
+
+#: admin/partials/ticket-list-table-class.php:156
+msgid "Type"
+msgstr "Tipo de"
+
+#: admin/partials/ticket-list-table-class.php:157
+msgid "Updated"
+msgstr "Actualizado"
+
+#: admin/partials/ticket-list-table-class.php:158
+msgid "Last Update By"
+msgstr "Última Actualización"
+
+#: admin/partials/user-based-custom-query-class.php:470
+msgid "Hi"
+msgstr "Hola"
+
+#: admin/partials/user-based-custom-query-class.php:474
+msgid ""
+"You have assigned in a new project. Can you please take a look on that "
+"project."
+msgstr ""
+"Se han asignado en un nuevo proyecto. Por favor, puedes echar un vistazo en "
+"el proyecto."
+
+#: admin/partials/user-based-custom-query-class.php:477
+msgid ""
+"The project has been updated. Can you please take a look on that project."
+msgstr ""
+"El proyecto ha sido actualizado. Por favor, puedes echar un vistazo en el "
+"proyecto."
+
+#: admin/partials/user-based-custom-query-class.php:484
+msgid ""
+"You have assigned in a new task. Can you please take a look on that task."
+msgstr ""
+"Se han asignado en una nueva tarea. Por favor, puedes echar un vistazo en la "
+"tarea."
+
+#: admin/partials/user-based-custom-query-class.php:487
+msgid "The task has been updated. Can you please take a look on that task."
+msgstr ""
+"La tarea ha sido actualizado. Por favor, puedes echar un vistazo en la tarea."
+
+#: admin/task-manager-admin.php:136
+msgid "Categories"
+msgstr "Categorías"
+
+#: admin/task-manager-admin.php:176
+msgid "Manage Users"
+msgstr "Administrar Usuarios"
+
+#: admin/task-manager-admin.php:184
+msgid "Tickets"
+msgstr "Los boletos"
+
+#: admin/task-manager-admin.php:185
+msgid "Add New Ticket"
+msgstr "Añadir Nuevo Billete"
+
+#: admin/task-manager-admin.php:186
+msgid "Ticket Details"
+msgstr "Detalles Del Boleto"
+
+#: admin/task-manager-admin.php:187
+msgid "Edit Ticket"
+msgstr "Edición De Entradas"
+
+#: admin/task-manager-admin.php:192
+msgid "Ticket Types"
+msgstr "Los Tipos De Boletos"
+
+#. Plugin Name of the plugin/theme
+#: admin/widget/task-manager-widget.php:11
+msgid "Task Manager"
+msgstr "El Administrador De Tareas Pro"
+
+#: admin/widget/task-manager-widget.php:12
+msgid "Show user based task lists"
+msgstr "Show de usuario basada en listas de tareas"
+
+#: admin/widget/task-manager-widget.php:91
+msgid "Task Manager"
+msgstr "El Administrador De Tareas"
+
+#: admin/widget/task-manager-widget.php:99
+msgid "Title:"
+msgstr "Título:"
+
+#: admin/widget/task-manager-widget.php:106
+msgid "Show User Project Count"
+msgstr "Mostrar Usuarios Del Proyecto Contar"
+
+#: admin/widget/task-manager-widget.php:109
+msgid "Show User Project List"
+msgstr "Show De Usuario De La Lista De Proyectos"
+
+#: admin/widget/task-manager-widget.php:112
+msgid "Show User Task Count"
+msgstr "Mostrar Tarea De Usuario Contar"
+
+#: admin/widget/task-manager-widget.php:115
+msgid "Show User Task List"
+msgstr "Show De Usuario De La Lista De Tareas"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/m3-hackathon/task-manager/task-manager/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Task Manager is a Task Management Module/Tools for wordpress, where you "
+"can create, manage, assign user, update and delete different tasks. It has "
+"all features of Task Management Application."
+msgstr ""
+"Task Manager es una Tarea Módulo de Gestión/Herramientas para wordpress, "
+"que le permite crear, gestionar, asignar usuario, actualizar y eliminar las "
+"distintas tareas. Tiene todas las características de Gestión de Tareas de la "
+"Aplicación."
+
+#. Author of the plugin/theme
+msgid "W3BD"
+msgstr "W3BD"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/m3-hackathon/task-manager/"
+msgstr ""

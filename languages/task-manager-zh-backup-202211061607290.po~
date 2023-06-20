@@ -1,0 +1,1087 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Task Manager\n"
+"POT-Creation-Date: 2017-05-07 19:48+0600\n"
+"PO-Revision-Date: 2022-11-06 16:05+0000\n"
+"Last-Translator: Admin User\n"
+"Language-Team: Chinese\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: task-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.2; wp-6.0.2"
+
+#: admin/task-manager-admin.php:544
+msgid " tasks are imported from CSV!"
+msgstr ""
+
+#: admin/task-manager-admin.php:555
+msgid "<h3 style='color: red;'>Invalid Extension</h3>"
+msgstr ""
+
+#: admin/pages/user-groups.php:167
+msgid "Access Name"
+msgstr "访问的名字"
+
+#: admin/partials/user-access-type-table-class.php:114
+#: admin/partials/project-status-table-class.php:119
+#: admin/partials/ticket-list-table-class.php:159
+#: admin/partials/task-list-table-class.php:240
+#: admin/partials/task-status-list-table-class.php:127
+#: admin/partials/category-list-table-class.php:120
+#: admin/partials/task-label-table-class.php:118
+#: admin/partials/task-type-table-class.php:121
+#: admin/partials/ticket-type-table-class.php:118
+#: admin/partials/task-priority-table-class.php:121
+#: admin/partials/manage-user-table-class.php:131
+#: admin/partials/projects-task-table-class.php:208
+#: admin/partials/project-list-table-class.php:217
+msgid "Action"
+msgstr "动作"
+
+#: admin/pages/task-details.php:456
+msgid "Add"
+msgstr "添加"
+
+#: admin/pages/task-details.php:442
+msgid "Add a comment"
+msgstr "添加评论"
+
+#: admin/pages/project-details.php:207
+msgid "Add a new task"
+msgstr ""
+
+#: admin/pages/manage-users.php:148
+msgid "Add A User To Task Manager"
+msgstr "添加一个用户向任务经理"
+
+#: admin/task-manager-admin.php:143 admin/task-manager-admin.php:169
+#: admin/task-manager-admin.php:169 admin/pages/projects.php:203
+#: admin/pages/tasks.php:226 admin/pages/tickets.php:199
+msgid "Add New"
+msgstr "添加新的"
+
+#: admin/pages/project-category.php:125 admin/pages/project-category.php:142
+msgid "Add New Category"
+msgstr "添加新的类别"
+
+#: admin/pages/task-labels.php:83 admin/pages/task-labels.php:94
+msgid "Add New Label"
+msgstr "添加新的标签"
+
+#: admin/pages/task-priority.php:115 admin/pages/task-priority.php:142
+msgid "Add New Priority"
+msgstr "添加新的优先事项"
+
+#: admin/pages/project-status.php:87 admin/pages/project-status.php:98
+#: admin/pages/task-status.php:113
+msgid "Add New Status"
+msgstr "添加新的状态"
+
+#: admin/pages/task-status.php:93
+msgid "Add New Task Status"
+msgstr "添加新的任务的状态"
+
+#: admin/task-manager-admin.php:200
+msgid "Add New Ticket"
+msgstr "添加新的票"
+
+#: admin/pages/task-types.php:141
+msgid "Add New Type"
+msgstr "添加新的类型"
+
+#: admin/pages/user-groups.php:112 admin/pages/user-groups.php:135
+msgid "Add New User Group"
+msgstr "添加新的用户群"
+
+#: admin/pages/task-types.php:125
+msgid "Add Task Type"
+msgstr "添加任务的类型"
+
+#: admin/pages/manage-users.php:178
+msgid "Add User"
+msgstr "增加用户"
+
+#: admin/pages/task-new.php:134 admin/pages/task-edit.php:211
+#: admin/pages/task-details.php:238
+#: admin/partials/task-list-table-class.php:236
+msgid "Amount"
+msgstr ""
+
+#: admin/pages/project-edit.php:242
+msgid "Assign"
+msgstr ""
+
+#: admin/pages/task-new.php:279
+msgid "Assign to"
+msgstr "分配给"
+
+#: admin/pages/project-new.php:190
+msgid "Assign User"
+msgstr ""
+
+#: admin/pages/manage-users.php:166 admin/pages/manage-users.php:215
+msgid "Assign User to Group"
+msgstr "分配用户组"
+
+#: admin/pages/task-details.php:430
+#: admin/partials/task-list-table-class.php:237
+msgid "Assigned To"
+msgstr ""
+
+#: admin/pages/task-new.php:194 admin/pages/task-edit.php:279
+msgid "Board"
+msgstr ""
+
+#: admin/task-manager-admin.php:183 admin/task-manager-admin.php:935
+#: admin/pages/projects.php:147 admin/pages/tasks.php:163
+msgid "Boards"
+msgstr ""
+
+#: admin/task-manager-admin.php:148
+msgid "Categories"
+msgstr "类别"
+
+#: admin/partials/project-list-table-class.php:212
+msgid "Category"
+msgstr "类别"
+
+#: admin/pages/project-category.php:179 admin/pages/project-category.php:181
+msgid "Category Name"
+msgstr "分类名称"
+
+#: admin/pages/project-category.php:186 admin/pages/project-category.php:188
+msgid "Category Slug"
+msgstr "类别的子弹"
+
+#: admin/pages/task-details.php:422
+msgid "Change"
+msgstr "改变"
+
+#: admin/pages/task-details.php:410
+msgid "Change Status"
+msgstr ""
+
+#: admin/pages/tickets.php:160
+msgid "Closed Tickets"
+msgstr ""
+
+#: admin/pages/tasks.php:182
+msgid "Completed Tasks"
+msgstr "完成任务"
+
+#: admin/pages/project-details.php:245
+msgid "Contacts Involved With This Project"
+msgstr "联系人参与这个项目"
+
+#: admin/pages/task-details.php:483
+msgid "Contacts Involved With This Task"
+msgstr "联系人参与这个任务"
+
+#: admin/pages/task-new.php:317 admin/pages/project-new.php:255
+msgid "Create"
+msgstr "创建"
+
+#: admin/pages/project-new.php:71
+msgid "Create A New Project"
+msgstr "创建一个新的项目"
+
+#: admin/pages/task-new.php:76
+msgid "Create a New Task"
+msgstr "创建一个新任务"
+
+#: admin/partials/project-list-table-class.php:215
+msgid "Created"
+msgstr "创建"
+
+#: admin/partials/task-list-table-class.php:239
+msgid "Created At"
+msgstr ""
+
+#: admin/pages/task-details.php:463
+msgid "Created By"
+msgstr "创造的"
+
+#: admin/task-manager-admin.php:927
+msgid "Currency Symbol"
+msgstr ""
+
+#: admin/task-manager-admin.php:943
+msgid "Custom Css"
+msgstr ""
+
+#: admin/pages/project-category.php:166
+msgid "Deleting a category does not delete the projects in that category."
+msgstr "删除一个类别不会删除该项目在这一类别。"
+
+#: admin/pages/task-labels.php:118
+msgid "Deleting a label can be effect on task."
+msgstr "删除标签可影响任务。"
+
+#: admin/pages/task-priority.php:167
+msgid "Deleting a task priority can be effect on tasks."
+msgstr "删除的任务的优先权可影响任务。"
+
+#: admin/pages/task-status.php:137
+msgid "Deleting a task status can be effect on tasks.."
+msgstr "删除的任务的状态可能影响的任务。。"
+
+#: admin/pages/task-types.php:165
+msgid "Deleting a task type can effect on tasks."
+msgstr "删除一个任务类型的可能影响的任务。"
+
+#: admin/pages/project-new.php:151 admin/pages/project-edit.php:205
+msgid "Design completion date for the project."
+msgstr "设计完成日期为该项目。"
+
+#: admin/pages/project-new.php:145 admin/pages/project-edit.php:199
+#: admin/pages/project-details.php:171
+msgid "Design Date"
+msgstr "设计的日期"
+
+#: admin/pages/task-details.php:211 admin/pages/project-details.php:147
+msgid "Details"
+msgstr "详细信息"
+
+#: admin/pages/project-new.php:163 admin/pages/project-edit.php:216
+msgid "Development Completion Date."
+msgstr "发展完成日期。"
+
+#: admin/pages/project-new.php:156 admin/pages/project-edit.php:210
+#: admin/pages/project-details.php:182
+msgid "Development Date"
+msgstr "开发日期"
+
+#: admin/pages/project-details.php:195
+msgid "Do Live Date"
+msgstr "做生日期"
+
+#: admin/pages/task-boards.php:11 admin/partials/settings/tmp_boards.php:17
+msgid "Done"
+msgstr ""
+
+#: admin/pages/task-new.php:257 admin/pages/task-edit.php:352
+#: admin/pages/task-details.php:323
+#: admin/partials/task-list-table-class.php:238
+msgid "Due Date"
+msgstr "由于日期"
+
+#: admin/partials/projects-task-table-class.php:207
+msgid "Dui Date"
+msgstr "统一身份证的日期"
+
+#: admin/pages/task-new.php:137 admin/pages/task-edit.php:214
+msgid "e.g. 10"
+msgstr ""
+
+#: admin/pages/user-access-type.php:114
+msgid "Edit Access Type"
+msgstr "编辑的接入类型"
+
+#: admin/pages/project-edit.php:115
+msgid "Edit Existing Project"
+msgstr "编辑现有的项目"
+
+#: admin/pages/task-edit.php:146
+msgid "Edit Existing Task"
+msgstr "编辑现有的任务"
+
+#: admin/task-manager-admin.php:155 admin/pages/project-details.php:137
+msgid "Edit Project"
+msgstr "编辑项目"
+
+#: admin/pages/project-category.php:175
+msgid "Edit Project Category"
+msgstr "编辑的项目类别"
+
+#: admin/pages/project-status.php:131 admin/pages/task-status.php:146
+msgid "Edit Status"
+msgstr "编辑的状态"
+
+#: admin/task-manager-admin.php:182 admin/pages/task-details.php:179
+msgid "Edit Task"
+msgstr "编辑的任务"
+
+#: admin/pages/task-labels.php:127
+msgid "Edit Task Label"
+msgstr "编辑任务的标签"
+
+#: admin/pages/task-priority.php:176
+msgid "Edit Task Priority"
+msgstr "编辑的任务优先级"
+
+#: admin/pages/task-types.php:174
+msgid "Edit Task Type"
+msgstr "编辑的任务类型"
+
+#: admin/task-manager-admin.php:202
+msgid "Edit Ticket"
+msgstr "编辑票"
+
+#: admin/pages/user-groups.php:164 admin/pages/manage-users.php:207
+msgid "Edit User Group"
+msgstr "编辑用户组"
+
+#: admin/task-manager-admin.php:895
+msgid "Enable Multiple User Assign Option to group"
+msgstr ""
+
+#: admin/pages/task-new.php:214 admin/pages/task-edit.php:302
+msgid "Estimation Time"
+msgstr "估计时间"
+
+#: admin/pages/tasks.php:234 admin/pages/tickets.php:200
+msgid "Export CSV"
+msgstr ""
+
+#: admin/pages/projects.php:133 admin/pages/tasks.php:149
+#: admin/pages/tickets.php:143 admin/pages/tickets.php:165
+msgid "From"
+msgstr "从"
+
+#: admin/pages/tasks.php:189
+msgid "From "
+msgstr ""
+
+#: admin/task-manager-admin.php:863
+msgid "Get Project Notification"
+msgstr ""
+
+#: admin/task-manager-admin.php:879
+msgid "Get Task Notification"
+msgstr ""
+
+#: admin/partials/project-list-table-class.php:214
+msgid "Go Live Date"
+msgstr "去住日期"
+
+#: admin/pages/projects.php:188
+msgid "Go to Manage Users"
+msgstr "转到管理用户"
+
+#: admin/pages/tasks.php:211
+msgid "Go to projects"
+msgstr "去项目"
+
+#: admin/pages/tickets.php:187
+msgid "Go to Tasks"
+msgstr ""
+
+#: admin/pages/projects.php:171
+msgid "Go to tasks"
+msgstr "去任务"
+
+#: admin/pages/projects.php:153 admin/pages/tasks.php:169
+msgid "Go to the boards"
+msgstr ""
+
+#: admin/partials/task-status-list-table-class.php:126
+msgid "Group Name"
+msgstr "小组的名字"
+
+#: admin/partials/user-based-custom-query-class.php:619
+msgid "Hi"
+msgstr "嗨"
+
+#: admin/task-manager-admin.php:903
+msgid "Hide completed tasks"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/m3-hackathon/task-manager/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/m3-hackathon/"
+msgstr ""
+
+#: admin/partials/task-priority-table-class.php:120
+msgid "Icon"
+msgstr "图标"
+
+#: admin/pages/tasks.php:230
+msgid "Import CSV"
+msgstr ""
+
+#: admin/pages/task-boards.php:9 admin/partials/settings/tmp_boards.php:11
+msgid "In Progress"
+msgstr ""
+
+#: admin/pages/task-new.php:117 admin/pages/task-edit.php:191
+msgid "Label"
+msgstr "标签"
+
+#: admin/partials/ticket-list-table-class.php:158
+msgid "Last Update By"
+msgstr "最后更新通过"
+
+#: admin/pages/task-details.php:351
+msgid "Last Updated"
+msgstr "最后更新"
+
+#: admin/pages/task-details.php:473
+msgid "Last Updated By"
+msgstr "最后更新通过"
+
+#: admin/pages/project-details.php:159
+#: admin/partials/project-list-table-class.php:216
+msgid "Live Url"
+msgstr "活Url"
+
+#: admin/task-manager-admin.php:191
+msgid "Manage Users"
+msgstr "管理用户"
+
+#: admin/pages/user-access-type.php:122
+msgid "Modify Access Type"
+msgstr "修改的接入类型"
+
+#: admin/pages/task-priority.php:194
+msgid "Modify Icon Priority"
+msgstr "修改标的优先权"
+
+#: admin/pages/task-labels.php:138
+msgid "Modify Task Label"
+msgstr "修改任务的标签"
+
+#: admin/pages/task-status.php:163
+msgid "Modify Task Status"
+msgstr "修改任务的状态"
+
+#: admin/pages/task-types.php:191
+msgid "Modify Task Type"
+msgstr "修改任务的类型"
+
+#: admin/pages/user-groups.php:185 admin/pages/project-status.php:142
+#: admin/pages/manage-users.php:223
+msgid "Modify User Group"
+msgstr "修改的用户群"
+
+#: admin/pages/task-priority.php:119 admin/pages/user-access-type.php:119
+#: admin/pages/user-groups.php:115 admin/pages/task-labels.php:87
+#: admin/pages/task-types.php:129 admin/pages/project-status.php:91
+#: admin/pages/project-status.php:135 admin/pages/task-status.php:97
+#: admin/pages/task-status.php:150 admin/pages/project-category.php:129
+#: admin/partials/user-group-table-class.php:132
+#: admin/partials/user-access-type-table-class.php:113
+#: admin/partials/project-status-table-class.php:118
+#: admin/partials/ticket-list-table-class.php:153
+#: admin/partials/task-list-table-class.php:231
+#: admin/partials/task-status-list-table-class.php:125
+#: admin/partials/category-list-table-class.php:118
+#: admin/partials/task-label-table-class.php:117
+#: admin/partials/task-type-table-class.php:119
+#: admin/partials/ticket-type-table-class.php:117
+#: admin/partials/task-priority-table-class.php:119
+#: admin/partials/manage-user-table-class.php:129
+#: admin/partials/projects-task-table-class.php:203
+#: admin/partials/project-list-table-class.php:211
+msgid "Name"
+msgstr "名称"
+
+#: admin/pages/user-access-type.php:153 admin/pages/projects.php:243
+#: admin/pages/tasks.php:273 admin/pages/user-groups.php:217
+#: admin/pages/task-labels.php:168 admin/pages/task-types.php:222
+#: admin/pages/project-status.php:172 admin/pages/manage-users.php:254
+#: admin/pages/task-status.php:194 admin/pages/project-details.php:274
+#: admin/pages/project-category.php:223
+msgid "No"
+msgstr "没有"
+
+#: admin/pages/task-details.php:387
+msgid "No Comment Added Yet"
+msgstr "没有任何评论尚未加入"
+
+#: admin/pages/task-priority.php:167 admin/pages/task-labels.php:118
+#: admin/pages/task-types.php:165 admin/pages/project-status.php:122
+#: admin/pages/task-status.php:137 admin/pages/project-category.php:166
+msgid "Note:"
+msgstr "注："
+
+#: admin/task-manager-admin.php:848
+msgid "Notification & Other Settings"
+msgstr ""
+
+#: admin/task-manager-admin.php:911
+msgid "Only selected users for the project can be assigned for a task"
+msgstr ""
+
+#: admin/pages/projects.php:128
+msgid "Open Projects"
+msgstr "开放的项目"
+
+#: admin/pages/tickets.php:138
+msgid "Open Tickets"
+msgstr ""
+
+#: admin/pages/projects.php:183
+msgid "People Involved"
+msgstr "所涉及的人"
+
+#: admin/pages/task-new.php:178 admin/pages/task-edit.php:260
+msgid "Priority"
+msgstr "优先权"
+
+#: admin/pages/task-priority.php:180
+msgid "Priority Name"
+msgstr "优先名字"
+
+#: admin/partials/task-list-table-class.php:235
+#: admin/partials/projects-task-table-class.php:206
+msgid "Progress"
+msgstr "进展"
+
+#: admin/pages/task-new.php:81 admin/pages/task-edit.php:151
+msgid "Project"
+msgstr "项目"
+
+#: admin/pages/user-groups.php:119
+#: admin/partials/user-group-table-class.php:133
+msgid "Project Access"
+msgstr "项目访问"
+
+#: admin/pages/project-category.php:113
+msgid "Project Categories"
+msgstr "项目类别"
+
+#: admin/pages/project-new.php:87 admin/pages/project-edit.php:131
+msgid "Project Category"
+msgstr "项目类别"
+
+#: admin/task-manager-admin.php:138 admin/pages/project-new.php:182
+#: admin/pages/project-edit.php:235
+msgid "Project Details"
+msgstr "项目的详细信息"
+
+#: admin/pages/project-new.php:122 admin/pages/project-edit.php:172
+msgid "Project Live Url"
+msgstr "项目活Url"
+
+#: admin/pages/project-new.php:127 admin/pages/project-edit.php:179
+msgid "Project live url - where you can check the live project."
+msgstr "项目活url-在这里你可以检查现场项目。"
+
+#: admin/pages/project-new.php:76 admin/pages/project-edit.php:120
+#: admin/partials/task-list-table-class.php:232
+msgid "Project Name"
+msgstr "项目名称"
+
+#: admin/pages/project-details.php:236
+msgid "Project Owner"
+msgstr "项目的主人"
+
+#: admin/task-manager-admin.php:149 admin/pages/project-new.php:106
+#: admin/pages/project-edit.php:153 admin/pages/project-status.php:75
+#: admin/pages/project-details.php:227
+msgid "Project Status"
+msgstr "项目状态"
+
+#: admin/pages/project-new.php:132 admin/pages/project-edit.php:184
+msgid "Project Test Url"
+msgstr "项目测试Url"
+
+#: admin/pages/project-new.php:168 admin/pages/project-edit.php:221
+msgid "Project Testing Date"
+msgstr "项目的测试日期"
+
+#: admin/pages/project-new.php:234 admin/pages/project-edit.php:290
+msgid "Project Will Go Live"
+msgstr "项目将去住"
+
+#: admin/task-manager-admin.php:137 admin/pages/projects.php:198
+msgid "Projects"
+msgstr "项目"
+
+#: admin/pages/tasks.php:153 admin/pages/tasks.php:191
+msgid "projects"
+msgstr "项目"
+
+#: admin/pages/manage-users.php:251
+msgid ""
+"Removing a user from group will remove access from from the task/project.<br>"
+" Are you sure ?"
+msgstr ""
+
+#: admin/pages/task-boards.php:10 admin/partials/settings/tmp_boards.php:14
+msgid "Review"
+msgstr ""
+
+#: admin/pages/task-edit.php:433 admin/pages/task-details.php:300
+#: admin/pages/project-edit.php:309
+msgid "Save"
+msgstr "保存"
+
+#: admin/pages/task-new.php:284 admin/pages/task-edit.php:393
+#: admin/pages/project-new.php:205 admin/pages/project-edit.php:260
+msgid "Search for specific users.."
+msgstr "搜索特定的用户.."
+
+#: admin/pages/manage-users.php:164
+msgid "Select a user form system users."
+msgstr "选择一个用户的形式系统的用户。"
+
+#: admin/pages/task-details.php:414
+msgid "Select Status"
+msgstr "选择状况"
+
+#: admin/pages/manage-users.php:150 admin/pages/manage-users.php:209
+msgid "Select User"
+msgstr "用户选择"
+
+#: admin/pages/task-new.php:189
+msgid "Set the priority of the task."
+msgstr "设定的优先任务。"
+
+#: admin/task-manager-admin.php:871
+msgid "Show Project Count Badge On Menu"
+msgstr ""
+
+#: admin/task-manager-admin.php:887
+msgid "Show Task Count Badge On Menu"
+msgstr ""
+
+#: admin/widget/task-manager-widget.php:106
+msgid "Show User Project Count"
+msgstr "显示用户项目数"
+
+#: admin/widget/task-manager-widget.php:109
+msgid "Show User Project List"
+msgstr "显示出用户的项目清单"
+
+#: admin/widget/task-manager-widget.php:112
+msgid "Show User Task Count"
+msgstr "显示用户任务数"
+
+#: admin/widget/task-manager-widget.php:115
+msgid "Show User Task List"
+msgstr "显示用户清单的任务"
+
+#: admin/pages/task-types.php:134 admin/pages/project-category.php:135
+#: admin/partials/category-list-table-class.php:119
+#: admin/partials/task-type-table-class.php:120
+msgid "Slug"
+msgstr "弹头"
+
+#: admin/pages/task-new.php:246
+msgid "Start Date"
+msgstr "开始日期"
+
+#: admin/partials/ticket-list-table-class.php:155
+#: admin/partials/project-list-table-class.php:213
+msgid "Status"
+msgstr "状态"
+
+#: admin/pages/task-status.php:155
+msgid "Status Group"
+msgstr "状态小组"
+
+#: admin/pages/project-status.php:137 admin/pages/task-status.php:152
+msgid "Status Name"
+msgstr "状态的名字"
+
+#: admin/pages/user-groups.php:126
+#: admin/partials/user-group-table-class.php:134
+msgid "Task Access"
+msgstr "任务访问"
+
+#: admin/pages/task-details.php:364
+msgid "Task Comments"
+msgstr "任务的评论"
+
+#: admin/pages/task-details.php:339
+msgid "Task Created"
+msgstr "任务创建的"
+
+#: admin/task-manager-admin.php:163 admin/pages/task-new.php:272
+#: admin/pages/task-edit.php:378
+msgid "Task Details"
+msgstr "任务的详细信息"
+
+#: admin/pages/task-labels.php:71
+msgid "Task Labels"
+msgstr "任务的标签"
+
+#: admin/task-manager-admin.php:177
+msgid "Task Labels/Tags"
+msgstr ""
+
+#. Name of the plugin
+#: admin/task-manager-admin.php:1050
+msgid "Task Manager"
+msgstr "任务管理专业"
+
+#. Description of the plugin
+msgid ""
+"Task Manager is a Task Management Module/Tools for wordpress, where you "
+"can create, manage, assign user, update and delete different tasks. It has "
+"all features of Task Management Application."
+msgstr ""
+"任务管理专业是一个任务管理模块/工具wordpress，您可以创建、管理、分配用户、更新和删除不同的任务。 它拥有所有特性的任务管理应用程序。"
+
+#: admin/pages/task-new.php:149 admin/pages/task-edit.php:227
+msgid "Task Name"
+msgstr "任务名称"
+
+#: admin/task-manager-admin.php:176 admin/pages/task-priority.php:103
+msgid "Task Priorities"
+msgstr "任务优先级"
+
+#: admin/pages/task-details.php:223
+#: admin/partials/task-list-table-class.php:234
+#: admin/partials/projects-task-table-class.php:205
+msgid "Task Priority"
+msgstr "任务优先级"
+
+#: admin/pages/task-priority.php:126 admin/pages/task-priority.php:185
+msgid "Task Priority Icon"
+msgstr "任务的优先权标"
+
+#: admin/pages/task-edit.php:365 admin/pages/task-details.php:279
+msgid "Task Progress"
+msgstr "任务的进展"
+
+#: admin/pages/task-details.php:311
+msgid "Task Start From"
+msgstr "从任务开始"
+
+#: admin/task-manager-admin.php:175 admin/pages/task-new.php:161
+#: admin/pages/task-edit.php:240 admin/pages/task-details.php:399
+#: admin/pages/task-status.php:81 admin/partials/task-list-table-class.php:233
+#: admin/partials/projects-task-table-class.php:204
+msgid "Task Status"
+msgstr "任务状况"
+
+#: admin/pages/task-new.php:100 admin/pages/task-edit.php:171
+msgid "Task Type"
+msgstr "任务类型"
+
+#: admin/task-manager-admin.php:174 admin/pages/task-types.php:113
+msgid "Task Types"
+msgstr "任务类型"
+
+#: admin/task-manager-admin.php:162 admin/pages/tasks.php:221
+msgid "Tasks"
+msgstr "任务"
+
+#: admin/pages/project-details.php:205
+msgid "Tasks of This Project"
+msgstr "任务的这个项目"
+
+#: admin/pages/project-details.php:189
+msgid "Test Date"
+msgstr "试验日期"
+
+#: admin/pages/project-details.php:165
+msgid "Test Url"
+msgstr "测试Url"
+
+#: admin/pages/project-new.php:174 admin/pages/project-edit.php:227
+msgid "Testing phase completion date."
+msgstr "测试阶段的完成日期。"
+
+#: admin/pages/user-groups.php:117
+msgid "The access type is how it appears on the user list."
+msgstr "访问的类型是如何出现在用户的清单。"
+
+#: admin/pages/task-new.php:141 admin/pages/task-edit.php:218
+msgid "The budget amount for this task"
+msgstr ""
+
+#: admin/pages/project-new.php:137 admin/pages/project-edit.php:191
+msgid "The development env url - where you found dev preview."
+msgstr "发展env url-你在哪里找到的开发预览。"
+
+#: admin/pages/task-new.php:263 admin/pages/task-edit.php:358
+msgid "The due date for the task."
+msgstr "截止日期的任务。"
+
+#: admin/pages/task-new.php:241 admin/pages/task-edit.php:336
+msgid "The estimation for the task."
+msgstr "估计的任务。"
+
+#: admin/pages/task-labels.php:90 admin/pages/project-category.php:132
+msgid "The name is how it appears on your project."
+msgstr "名字是怎么出现在你的项目。"
+
+#: admin/pages/project-status.php:93
+msgid "The name is how it appears on your project/ticket."
+msgstr "名字是怎么出现在你的项目/票。"
+
+#: admin/pages/task-priority.php:122 admin/pages/task-types.php:131
+#: admin/pages/task-status.php:99
+msgid "The name is how it appears on your task."
+msgstr "名字是怎么出现在你的任务。"
+
+#: admin/pages/task-new.php:95 admin/pages/project-new.php:81
+#: admin/pages/project-edit.php:126
+msgid "The name of the project - where you can define your project."
+msgstr "项目的名称-那你可以定义项目。"
+
+#: admin/pages/task-edit.php:165
+msgid "The name of the Task - where you can define your Task."
+msgstr "任务名称-在这里你可以定你的任务。"
+
+#: admin/pages/task-new.php:156 admin/pages/task-edit.php:234
+msgid "The name of the task - where you can define your task."
+msgstr "任务名称-在这里你可以定你的任务。"
+
+#: admin/pages/user-groups.php:125
+msgid "The Project access type is how it appears on the user list."
+msgstr "该项目的接入类型是如何出现在用户的清单。"
+
+#: admin/partials/user-based-custom-query-class.php:626
+msgid ""
+"The project has been updated. Can you please take a look on that project."
+msgstr "该项目已经更新。 可以请你看一看这一项目。"
+
+#: admin/pages/project-new.php:117 admin/pages/project-edit.php:167
+msgid "The project status - current status of project."
+msgstr "该项目的状况-目前状况的项目。"
+
+#: admin/pages/task-status.php:109
+msgid "The project status group is how it appears on the task."
+msgstr ""
+
+#: admin/task-manager-admin.php:670
+msgid "The selected project clone done including tasks!"
+msgstr ""
+
+#: admin/task-manager-admin.php:712
+msgid "The selected task clone done!"
+msgstr ""
+
+#: admin/pages/task-new.php:252 admin/pages/task-edit.php:347
+msgid "The start date for the task."
+msgstr "开始日期的任务。"
+
+#: admin/pages/user-groups.php:132 admin/pages/manage-users.php:175
+msgid "The Task access type is how it appears on the user list."
+msgstr "任务的接入类型是如何出现在用户的清单。"
+
+#: admin/pages/task-edit.php:294
+msgid "The task board - current board of the task."
+msgstr ""
+
+#: admin/partials/user-based-custom-query-class.php:641
+msgid "The task has been updated."
+msgstr ""
+
+#: admin/pages/task-edit.php:255
+msgid "The Task status - current status of task."
+msgstr "任务状况-目前状况的任务。"
+
+#: admin/pages/task-new.php:173 admin/pages/task-new.php:205
+msgid "The task status - current status of task."
+msgstr "任务状况-目前状况的任务。"
+
+#: admin/pages/task-new.php:111 admin/pages/task-new.php:128
+#: admin/pages/project-new.php:98 admin/pages/project-edit.php:145
+msgid "The type of project you are creating."
+msgstr "这种类型的项目创建。"
+
+#: admin/pages/task-edit.php:185 admin/pages/task-edit.php:205
+#: admin/pages/task-edit.php:274
+msgid "The type of Task you are creating."
+msgstr "这种类型的任务。"
+
+#: admin/pages/task-types.php:136 admin/pages/project-category.php:137
+msgid ""
+"The “slug” is the URL-friendly version of the name. It is usually all "
+"lowercase and\n"
+"                                contains only letters, numbers, and hyphens."
+msgstr "将\"弹头\"是网友好版本的名字。 它通常是所有小写的，并且只包含字母、数字和连字符。"
+
+#: admin/pages/project-status.php:122
+msgid ""
+"These status will be appear also on ticket, deleting a status can be effect "
+"on project/ticket."
+msgstr "这些状况将出现也对票，删除的状态可能影响项目/票。"
+
+#: admin/task-manager-admin.php:201
+msgid "Ticket Details"
+msgstr "票务的细节"
+
+#: admin/partials/ticket-list-table-class.php:154
+msgid "Ticket For"
+msgstr "票"
+
+#: admin/task-manager-admin.php:207
+msgid "Ticket Types"
+msgstr "票类型"
+
+#: admin/task-manager-admin.php:199
+msgid "Tickets"
+msgstr "门票"
+
+#: admin/pages/task-details.php:252
+msgid "Time Estimation"
+msgstr "时间估计"
+
+#: admin/pages/task-details.php:267
+msgid "Time Taken"
+msgstr ""
+
+#: admin/pages/task-edit.php:406 admin/pages/project-edit.php:272
+msgid "To assign specific user."
+msgstr "指定特定的用户。"
+
+#: admin/partials/settings/tmp_boards.php:8
+msgid "TODO"
+msgstr ""
+
+#: admin/pages/task-boards.php:8
+msgid "Todo"
+msgstr ""
+
+#: admin/pages/project-new.php:217
+msgid "Total involved team members."
+msgstr "总共涉及团队成员。"
+
+#: admin/pages/tasks.php:206
+msgid "Total Projects"
+msgstr "总的项目"
+
+#: admin/pages/projects.php:137
+msgid "total projects"
+msgstr "总的项目"
+
+#: admin/pages/projects.php:166 admin/pages/tasks.php:144
+msgid "Total Tasks"
+msgstr "总任务"
+
+#: admin/pages/tickets.php:148 admin/pages/tickets.php:170
+msgid "total ticket"
+msgstr ""
+
+#: admin/pages/tickets.php:182
+msgid "Total Tickets"
+msgstr ""
+
+#: admin/partials/ticket-list-table-class.php:156
+msgid "Type"
+msgstr "类型"
+
+#: admin/pages/task-priority.php:182 admin/pages/task-labels.php:131
+#: admin/pages/task-labels.php:133 admin/pages/task-types.php:178
+#: admin/pages/task-types.php:180
+msgid "Type Name"
+msgstr "类型的名字"
+
+#: admin/pages/task-types.php:185 admin/pages/task-types.php:187
+msgid "Type Slug"
+msgstr "类型的子弹"
+
+#: admin/partials/ticket-list-table-class.php:157
+msgid "Updated"
+msgstr "更新"
+
+#: admin/task-manager-admin.php:193 admin/pages/user-access-type.php:79
+msgid "User Access Types"
+msgstr "用户访问的种类"
+
+#: admin/partials/manage-user-table-class.php:130
+msgid "User Group"
+msgstr "用户组"
+
+#: admin/task-manager-admin.php:192 admin/pages/user-groups.php:100
+#: admin/pages/manage-users.php:136
+msgid "User Groups"
+msgstr "用户群体"
+
+#. Author of the plugin
+msgid "W3BD"
+msgstr "W3BD"
+
+#: admin/pages/user-access-type.php:152 admin/pages/projects.php:242
+#: admin/pages/tasks.php:272 admin/pages/user-groups.php:216
+#: admin/pages/task-labels.php:167 admin/pages/task-types.php:221
+#: admin/pages/project-status.php:171 admin/pages/manage-users.php:253
+#: admin/pages/task-status.php:193 admin/pages/project-details.php:273
+#: admin/pages/project-category.php:222
+#: admin/partials/settings/project_count_badge.php:5
+#: admin/partials/settings/tmp_multiple_user_assign.php:4
+#: admin/partials/settings/tmp_only_selected_users_can_assign_for_a_task.php:4
+#: admin/partials/settings/task_notification.php:19
+#: admin/partials/settings/tmp_show_hide_completed_tasks.php:4
+#: admin/partials/settings/project_notification.php:19
+#: admin/partials/settings/task_count_badge.php:5
+#: admin/partials/settings/mail_smtp_auth.php:9
+msgid "Yes"
+msgstr "是的"
+
+#: admin/pages/user-access-type.php:150
+msgid "You are about to delete the Access type. Are you sure ?"
+msgstr "你是有关删除的接入类型。 你确定吗？"
+
+#: admin/pages/project-category.php:220
+msgid "You are about to delete the Category. Are you sure ?"
+msgstr "你是有关删除的类别。 你确定吗？"
+
+#: admin/pages/user-groups.php:214
+msgid "You are about to delete the group. Are you sure ?"
+msgstr "你是有关删除的集团。 你确定吗？"
+
+#: admin/pages/projects.php:238
+msgid ""
+"You are about to delete the Project. All of the tasks associate with this "
+"project\n"
+"                will\n"
+"                be delete. Are you sure ?"
+msgstr "你是有关删除的项目。 所有的任务联系这个项目将被删除。 你确定吗？"
+
+#: admin/pages/project-status.php:169
+msgid "You are about to delete the status. Are you sure ?"
+msgstr "你是有关删除的状态。 你确定吗？"
+
+#: admin/pages/task-labels.php:165
+msgid "You are about to delete the Task label. Are you sure ?"
+msgstr "你是有关删除的任务的标签。 你确定吗？"
+
+#: admin/pages/task-status.php:191
+msgid "You are about to delete the task status. Are you sure ?"
+msgstr "你是有关删除的任务的状态。 你确定吗？"
+
+#: admin/pages/task-types.php:219
+msgid "You are about to delete the task type. Are you sure ?"
+msgstr "你是有关删除的任务的类型。 你确定吗？"
+
+#: admin/pages/tasks.php:269 admin/pages/project-details.php:270
+msgid ""
+"You are about to delete the Task. Please check the task progress before "
+"delete.\n"
+"                Do you still want to delete the task ?"
+msgstr "你是有关删除的任务。 请检查任务的进展之前删除。 你仍然想要删除的任务？"
+
+#: admin/pages/user-access-type.php:84
+msgid ""
+"You can modify title as your way but don't change the topics for as per\n"
+"        access. So you could no be track which user group as which access."
+msgstr "你可以修改的标题作为你的方式，但不会改变的主题，作为每次访问。 所以你能不能追踪用户群组作为其访问。"
+
+#: admin/pages/task-new.php:298
+msgid ""
+"You can only select users who are currently involve on the selected project."
+msgstr ""
+
+#: admin/partials/user-based-custom-query-class.php:623
+msgid "You have assigned in a new project."
+msgstr ""
+
+#: admin/partials/user-based-custom-query-class.php:638
+msgid "You have assigned in a new task."
+msgstr ""
+
+#: admin/pages/task-new.php:152
+msgid "Your task name..."
+msgstr "你的任务的名字..."
