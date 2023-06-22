@@ -25,7 +25,6 @@ Task Manager is a fully comprehensive task management plugin for WordPress.
 **== Task Manager Description ==**
 
 The plugin included the following features:
-
 	=> Project Creation
 	=> Task Creation
 	=> Manage User/User Group/Access
