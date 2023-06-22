@@ -18,7 +18,7 @@
  * @since      1.0.0
  * @package    Task_Manager
  * @subpackage Task_Manager/includes
- * @author     Your Name <email@Louis Sanchez>
+ * @author     Your Name <m3.hackathon@gmail.com>
  */
 class Task_Manager_Activator {
 

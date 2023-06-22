@@ -22,7 +22,7 @@
  * Tags: task manager, tasks, manager
  * Tested up to: 6.1.1
  * Author:            Louis Sanchez
- * Author URI:        https://github.com/m3-hackathon/task-manager/
+ * Author URI:        https://louie-sanchez.vercel.app/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       task-manager
