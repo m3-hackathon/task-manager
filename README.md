@@ -1,4 +1,4 @@
-=== Task Manager ===
+#=== Task Manager ===
 Contributors: Louie Sanchez
 Tags: task manager, tasks, manager, project management tools, manage different types of task
 Requires at least: 4.8
@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Task Manager is a fully comprehensive task management plugin for WordPress.
 
-== Description ==
+#== Description ==
 
 The plugin included following features:
 => Project Creation
